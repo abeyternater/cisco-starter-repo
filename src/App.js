@@ -3,14 +3,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className='banner'>
+        <h3>Sextant</h3>
+      </div>
+      <div className='row'>
+      <div className='FirstCard'>
+        <h4>User Public IP:</h4>
+      </div>
+      <div className='SecondCard'>
+        <h4>Latency Information for Pylon:</h4>
+      </div>
+      </div>  
     </div>
   );
 }
